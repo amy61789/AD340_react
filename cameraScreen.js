@@ -28,11 +28,11 @@ export default class CamerasScreen extends React.Component{
 			console.error(error);
 		  });
 	}
-	cameraType(cameraArray){
-		if(cameraArray.Type == "sdot"){
-			return  "http://www.seattle.gov/trafficcams/images/"+cameraArray.ImageUrl;
+	cameraType(camArray){
+		if(camArray.Type == "sdot"){
+			return  "http://www.seattle.gov/trafficcams/images/"+camArray.ImageUrl;
 		}else{
-			return "http://images.wsdot.wa.gov/nw/"+cameraArray.ImageUrl;
+			return "http://images.wsdot.wa.gov/nw/"+camArray.ImageUrl;
 		}
 	}
 	

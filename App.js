@@ -6,7 +6,7 @@ import { StackNavigator } from 'react-navigation';
 
 class HomeScreen extends React.Component{
 	static navigationOptions = {
-		title: "Home"
+		title: "React App"
 	};
 		render(){
 			const { navigate } = this.props.navigation;
